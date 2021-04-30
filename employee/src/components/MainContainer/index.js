@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 import Table from '../Table'
+import '../style.css'
 
 function MainContainer(){
     const [users, setUsers] = useState([])
