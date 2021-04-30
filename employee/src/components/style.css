@@ -14,7 +14,7 @@ nav{
 .filter{
     color: rgb(197, 65, 65);
     opacity: 0;
-    background-color: Transparent;
+    background-color: Transparent; 
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
