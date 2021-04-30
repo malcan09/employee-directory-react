@@ -1,13 +1,16 @@
-import Table from "./components/Table";
-import './App.css';
+import React from 'react'
+import Navbar from './components/Navbar/index.js'
+import MainContainer from './components/MainContainer/index.js'
+import Footer from './components/Footer/index.js'
 
 function App() {
+  
+
   return (
     <div className="App">
-      <header>
-        <h1>Employee Directory</h1>
-      </header>
-      <Table />
+      <Navbar />
+      <MainContainer />
+      <Footer />
     </div>
   );
 }
